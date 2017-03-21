@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(tree)
 }
 func init() {
-	orm.RegisterDataBase("default", "mysql", "root:zhangjun.*?@/learn?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:leozim?@/learn?charset=utf8")
 	orm.RegisterModel(new(Cat))
 }
 
