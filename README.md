@@ -1,2 +1,2 @@
 # goTree
-基于golang的无限分类树
+a simple way to generate infinite  tree based on map with golang
