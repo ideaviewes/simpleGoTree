@@ -8,7 +8,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 )
-
+//使用map来实现简单golang无限分类
 type Cat struct {
 	Id       int
 	Fid      int
